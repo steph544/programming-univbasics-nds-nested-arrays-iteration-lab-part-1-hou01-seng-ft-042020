@@ -4,7 +4,7 @@ def find_even_values(src)
   while counter<src.length do 
   element_index=0 
   while element_index<src[counter].length do 
-    if src[counter][element_index] / 2 = 0  
+    if src[counter][element_index] / 2  
       new_array << src[counter][element_index]
     end
     element_index+=1 
